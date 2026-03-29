@@ -92,3 +92,17 @@ ECHO Watcom C 386 ready!
 
 • Из .obj в .exe:
   wlink file имя_файла.obj name имя_файла.exe
+
+
+
+
+   ### Отказ от ответственности / Disclaimer
+Данный репозиторий создан исключительно в образовательных целях и для сохранения истории ПО (архивации). 
+Все права на Watcom C принадлежат их законным правообладателям. 
+Если вы являетесь правообладателем и считаете, что размещение этих файлов нарушает ваши права, 
+пожалуйста, создайте "Issue", и файлы будут удалены.
+
+This repository is for educational and historical preservation purposes only. 
+All rights to Watcom C belong to their respective owners. 
+If you are the copyright holder and wish for these files to be removed, 
+please open an "Issue".
