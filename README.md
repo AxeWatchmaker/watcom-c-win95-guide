@@ -8,12 +8,12 @@ Guide for compiling C code on Windows 95 (VirtualBox)
 
 3) Create a SETENV.BAT file in the C:\WATCOM folder with the following content:
 
-@echo off
-SET WATCOM=C:\WATCOM
-SET INCLUDE=%WATCOM%\H
-SET PATH=%WATCOM%\BIN;%WATCOM%\BINW;%WATCOM%\BINP;%WATCOM%\BINB;%PATH%
-SET LIB=%WATCOM%\LIB386
-ECHO Watcom C 386 ready!
+```@echo off```
+```SET WATCOM=C:\WATCOM```
+```SET INCLUDE=%WATCOM%\H```
+```SET PATH=%WATCOM%\BIN;%WATCOM%\BINW;%WATCOM%\BINP;%WATCOM%\BINB;%PATH%```
+```SET LIB=%WATCOM%\LIB386```
+```ECHO Watcom C 386 ready!```
 
 4) Before EVERY compilation, run:
    CALL C:\WATCOM\SETENV.BAT
@@ -57,12 +57,12 @@ RUS
 
 3) Создайте файл SETENV.BAT в папке C:\WATCOM со следующим содержимым:
 
-@echo off
-SET WATCOM=C:\WATCOM
-SET INCLUDE=%WATCOM%\H
-SET PATH=%WATCOM%\BIN;%WATCOM%\BINW;%WATCOM%\BINP;%WATCOM%\BINB;%PATH%
-SET LIB=%WATCOM%\LIB386
-ECHO Watcom C 386 ready!
+```@echo off```
+```SET WATCOM=C:\WATCOM```
+```SET INCLUDE=%WATCOM%\H```
+```SET PATH=%WATCOM%\BIN;%WATCOM%\BINW;%WATCOM%\BINP;%WATCOM%\BINB;%PATH%```
+```SET LIB=%WATCOM%\LIB386```
+```ECHO Watcom C 386 ready!```
 
 4) Перед КАЖДОЙ компиляцией запускайте:
    CALL C:\WATCOM\SETENV.BAT
